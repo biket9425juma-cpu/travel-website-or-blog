@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust | Travel Blog</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #ecf0f1;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            background: #f4f4f4;
+            padding: 40px;
+            margin-bottom: 20px;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .blog-post {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+        }
+        .blog-post img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-content {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WANDERLUST</h1>
+    <p>Exploring the world, one city at a time.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+</nav>
+
+<div class="container">
+    <section class="hero">
+        <h2>Adventure Awaits</h2>
+        <p>Discover hidden gems and travel tips from across the globe.</p>
+    </section>
+
+    <div class="blog-grid">
+        <article class="blog-post">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=600" alt="Paris France">
+            <div class="blog-content">
+                <h3>A Weekend in Paris</h3>
+                <p>Exploring the cafes and cobblestone streets of the City of Lights.</p>
+                <a href="#">Read More</a>
+            </div>
+        </article>
+
+        <article class="blog-post">
+            <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=600" alt="Venice Italy">
+            <div class="blog-content">
+                <h3>Navigating Venice</h3>
+                <p>A guide to the canals, bridges, and gondolas of Italy's floating city.</p>
+                <a href="#">Read More</a>
+            </div>
+        </article>
+
+        <article class="blog-post">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600" alt="Tropical Beach">
+            <div class="blog-content">
+                <h3>Top 5 Tropical Escapes</h3>
+                <p>The best beaches to visit this summer for ultimate relaxation.</p>
+                <a href="#">Read More</a>
+            </div>
+        </article>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Wanderlust Travel Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
